@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2255964955748750682
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2255964955748750680}
+  - component: {fileID: 2255964955748750681}
+  m_Layer: 0
+  m_Name: ObjectPooler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2255964955748750680
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2255964955748750682}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.772578, y: 0.37842944, z: -0.85192215}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2255964955748750681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2255964955748750682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2c99ea5cbc30554084f63f20dc61f4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pools:
+  - tag: fireball
+    prefab: {fileID: 3329392606627895592, guid: 315f81b6c019d774d89ead042c66f7d3, type: 3}
+    size: 50
+  - tag: enemy1
+    prefab: {fileID: 6830968004596926695, guid: 34665da88f0cb3a4aa3395e1fb614781, type: 3}
+    size: 20
+  - tag: enemyfire
+    prefab: {fileID: 4906253031995764885, guid: 143601ae41fb6fe40b0a657fab8b8288, type: 3}
+    size: 20
+  - tag: enemy2
+    prefab: {fileID: 8436041672342051239, guid: 769800c25e6587548826611ec49d5f77, type: 3}
+    size: 20
