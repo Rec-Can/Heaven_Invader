@@ -1,2 +1,2 @@
 # Heaven_Invader
-A classic space shooter 2D game
+A classic 2D space shooter game
